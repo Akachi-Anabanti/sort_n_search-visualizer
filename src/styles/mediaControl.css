@@ -1,0 +1,36 @@
+/* MediaControls.css */
+.media-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.media-control-button {
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  font-size: var(--button-font-size);
+  background-color: var(--button-background);
+  color: var(--button-color);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.media-control-button:hover {
+  background-color: var(--button-hover-background);
+}
+
+/* Specific styles for each button */
+.rewind-button {
+  background-color: var(--color-accent-2);
+}
+
+.pause-button {
+  background-color: var(--color-accent-1);
+}
+
+.play-button {
+  background-color: var(--color-accent-3);
+}
