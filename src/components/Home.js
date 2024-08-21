@@ -48,17 +48,17 @@ function Home() {
         <div className="logo">
           <LogoIcon />
         </div>
-        ALGORITHM{" "}
+        Sort n Search{" "}
         <strong style={{ color: "var(--home-color)" }}>
           <br />
-          VISUALIZER
+          VISUALISER
         </strong>
       </h1>
       <div>
         <p className="description-title center">
-          Algorithm Visualizer is an interactive online platform that visualizes
-          algorithms from code. Currently these include Sorting, Searching
-          Algorithms.
+          Sort and Search Visualizer is an interactive online platform that
+          visualizes algorithms from code. Currently these include Sorting,
+          Searching Algorithms.
         </p>
       </div>
       <ul
