@@ -1,6 +1,89 @@
-## Getting Started with Create React App
+# Sorting Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Sorting Visualizer app! This application provides an interactive way to visualize various sorting algorithms using a dynamic, responsive user interface. It allows users to see how different sorting algorithms operate step-by-step on random arrays.
+
+## Features
+
+- **Visualize Sorting Algorithms**: Watch how different sorting algorithms sort an array in real-time.
+- **Support for Multiple Algorithms**: Includes popular sorting algorithms like Bubble Sort, Selection Sort, Merge Sort, Quick Sort, Insertion Sort, Heap Sort, and Radix Sort.
+- **Dynamic Array Generation**: Generate arrays of varying sizes and values.
+- **Adjustable Speed**: Control the speed of the sorting animation.
+- **Responsive Design**: The app is designed to adapt to different screen sizes.
+
+## Algorithms Included
+
+- **Bubble Sort**
+- **Selection Sort**
+- **Merge Sort**
+- **Quick Sort**
+- **Insertion Sort**
+- **Heap Sort**
+- **Radix Sort**
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (>= 14.x)
+- npm (>= 6.x)
+
+### Installation
+
+1. Clone the repository:
+
+   git clone https://github.com/Akachi-Anabanti/sorting-visualizer.git
+
+2. Navigate to the project directory:
+
+   cd sorting-visualizer
+
+3. Install dependencies:
+
+   npm install
+
+4. Start the development server:
+
+   npm start
+
+   The app will be available at http://localhost:3000 by default.
+
+## Usage
+
+1. **Select an Algorithm**: Use the dropdown menu to choose which sorting algorithm to visualize.
+2. **Adjust Array Size**: Use the slider in the controls dropdown to change the size of the array.
+3. **Adjust Speed**: Use the slider to set the speed of the sorting animation.
+4. **Randomize Array**: Click the "Randomize" button to generate a new random array.
+5. **Start Sorting**: Click the "Sort" button to start visualizing the selected sorting algorithm.
+
+## Components
+
+- **Sorting**: Main component that handles the logic for selecting algorithms, generating arrays, and controlling the visualization.
+- **Bars**: Component for rendering the array as a series of bars.
+- **CodeMarkdown**: Component to display the code of the selected sorting algorithm for educational purposes.
+
+## Project Structure
+
+- `src/`: Contains the source code.
+  - `algorithms/`: Folder with sorting algorithm implementations.
+  - `components/`: React components used in the app.
+  - `utils/`: Utility functions and constants.
+- `public/`: Static assets such as `index.html`.
+
+## Contributing
+
+Contributions are welcome! Please submit issues and pull requests via GitHub. If you have suggestions or improvements, feel free to create a new issue.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+
+Inspired by the [Algorithm Visualizer](https://github.com/arnabuchiha/Algorithm-Visualizer) project by [arnabuchiha](https://github.com/arnabuchiha). Thanks to the contributors and maintainers of that project for the inspiration!
+
+Happy sorting!
+
+---
 
 ### Available Scripts
 
