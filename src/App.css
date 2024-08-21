@@ -1,3 +1,16 @@
+:root {
+  --color-primary: #34495e;
+  --color-background: #ecf0f1;
+  --color-accent-1: #2ecc71;
+  --color-accent-2: #e67e22;
+  --color-accent-3: #3498db;
+
+  --main-background: var(--color-background);
+  --text-color-primary: var(--color-primary);
+  --text-color-secondary: #7f8c8d;
+  --border-color: #bdc3c7;
+  --border-radius: 4px;
+}
 .App {
   text-align: center;
 }
@@ -28,11 +41,11 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
