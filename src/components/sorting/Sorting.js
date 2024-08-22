@@ -12,7 +12,7 @@ function Sorting() {
   const [method1, setMethod1] = useState("Algorithms");
   const [method2, setMethod2] = useState("Algorithms");
   const [length, setLength] = useState(Math.floor(window.innerWidth / 50 / 2));
-  const [speed, setSpeed] = useState(50);
+  const [speed, setSpeed] = useState(100);
   const [compareMode, setCompareMode] = useState(false);
 
   useEffect(() => {
@@ -84,7 +84,6 @@ function Sorting() {
         handleSetMethod={handleSetMethod}
         handleChangeArraySize={(e) => setLength(e.target.value)}
         handleSpeedChange={(e) => setSpeed(1100 - e.target.value)}
-        speed={speed}
       />
       {compareMode ? (
         <ComparisonView

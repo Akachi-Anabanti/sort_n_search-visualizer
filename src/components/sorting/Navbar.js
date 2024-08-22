@@ -12,7 +12,6 @@ function Navbar({
   handleSetMethod,
   handleChangeArraySize,
   handleSpeedChange,
-  speed,
 }) {
   const algorithmList = [
     "SelectionSort",
@@ -150,9 +149,9 @@ function Navbar({
                 className="ml-1 nav-item"
                 onChange={handleSpeedChange}
                 type="range"
-                min={10}
+                min={100}
                 max={1000}
-                defaultValue={speed}
+                defaultValue={500}
               />
               <a className="nav-link">Increase Speed</a>
             </div>
