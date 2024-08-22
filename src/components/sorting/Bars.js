@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import "../../styles/Sorting.css";
 
 const springAnim = {
   type: "spring",
@@ -8,7 +9,7 @@ const springAnim = {
 
 function Bars({ arr }) {
   return (
-    <div className="bars">
+    <div className="bars" style={{ marginTop: "30px", marginBottom: "20px" }}>
       {arr.map((element, idx) => (
         <motion.div
           key={element.id}

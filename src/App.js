@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
-import Sorting from "./components/sorting/sorting";
+import Sorting from "./components/sorting/Sorting";
 
 function App() {
   return (
