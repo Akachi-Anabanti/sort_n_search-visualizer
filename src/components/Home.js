@@ -33,7 +33,7 @@ function Home() {
             <li
               onClick={() =>
                 openLink(
-                  "https://github.com/Akachi-Anabanti/Algorithm-visualizer"
+                  "https://github.com/Akachi-Anabanti/sort_n_search-visualizer.git"
                 )
               }
             >

@@ -18,23 +18,30 @@ function Sorting() {
   useEffect(() => {
     const newArr = createArray(length);
     setArr1(newArr);
-    setArr2(newArr);
+    setArr2([...newArr]);
   }, [length]);
+
+  useEffect(() => {
+    // get the error message
+    const errorMessage = document.getElementById("error");
+    const sortBtn = document.getElementById("sortButton");
+    // remove error message
+    errorMessage.style.display = "none";
+    sortBtn.removeAttribute("disabled");
+  }, [method1, method2]);
 
   const handleSortFunc = (e) => {
     e.preventDefault();
 
-    // get the error message
     const errorMessage = document.getElementById("error");
+    const sortBtn = document.getElementById("sortButton");
     if (method1 === "Algorithms" || (method2 === "Algorithms" && compareMode)) {
       // show error message and stop the action
+      sortBtn.setAttribute("disabled", "true");
       errorMessage.style.transition = "1s ease-in-out";
       errorMessage.style.display = "block";
       return;
     }
-    // remove error message
-    errorMessage.style.display = "none";
-
     if (compareMode) {
       sortArray(arr1, method1, speed, setArr1);
       sortArray(arr2, method2, speed, setArr2);
@@ -59,7 +66,7 @@ function Sorting() {
     const newArr = createArray(length);
     if (compareMode) {
       setArr1(newArr);
-      setArr2(newArr);
+      setArr2([...newArr]);
     } else {
       setArr1(newArr);
     }
@@ -93,7 +100,7 @@ function Sorting() {
             <Bars arr={arr1} />
           </div>
           {method1 !== "Algorithms" && (
-            <div className="container border rounded">
+            <div>
               <CodeMarkdown algorithm={method1} />
             </div>
           )}

@@ -58,6 +58,9 @@ def bubble_sort(arr):
 test_array = [64, 34, 25, 12, 22, 11, 90]
 print("Bubble Sort:", bubble_sort(test_array.copy()))
     `,
+    TimeComplexity: "O(n²) worst and average, O(n) best",
+    SpaceComplexity: "O(1)",
+    Resource: "https://www.geeksforgeeks.org/bubble-sort-algorithm/",
   },
   SelectionSort: {
     JavaScript: `
@@ -129,6 +132,9 @@ def selection_sort(arr):
 test_array = [64, 34, 25, 12, 22, 11, 90]
 print("Selection Sort:", selection_sort(test_array.copy()))
     `,
+    TimeComplexity: "O(n²) in all cases",
+    SpaceComplexity: "O(1)",
+    Resource: "https://www.geeksforgeeks.org/selection-sort-algorithm-2/",
   },
   InsertionSort: {
     JavaScript: `
@@ -192,6 +198,9 @@ def insertion_sort(arr):
 test_array = [64, 34, 25, 12, 22, 11, 90]
 print("Insertion Sort:", insertion_sort(test_array.copy()))
     `,
+    TimeComplexity: "O(n²) worst and average, O(n) best",
+    SpaceComplexity: "O(1)",
+    Resource: "https://www.geeksforgeeks.org/insertion-sort-algorithm/",
   },
   MergeSort: {
     JavaScript: `
@@ -299,6 +308,9 @@ def merge_sort(arr):
 test_array = [64, 34, 25, 12, 22, 11, 90]
 print("Merge Sort:", merge_sort(test_array.copy()))
     `,
+    TimeComplexity: "O(n log n) in all cases",
+    SpaceComplexity: "O(n)",
+    Resource: "https://www.geeksforgeeks.org/merge-sort/",
   },
   QuickSort: {
     JavaScript: `
@@ -374,6 +386,9 @@ def quick_sort(arr):
 test_array = [64, 34, 25, 12, 22, 11, 90]
 print("Quick Sort:", quick_sort(test_array.copy()))
     `,
+    TimeComplexity: "O(n log n) average and best, O(n²) worst",
+    SpaceComplexity: "O(log n) average",
+    Resource: "https://www.geeksforgeeks.org/quick-sort-algorithm/",
   },
   HeapSort: {
     JavaScript: `
@@ -480,6 +495,9 @@ def heap_sort(arr):
 test_array = [64, 34, 25, 12, 22, 11, 90]
 print("Heap Sort:", heap_sort(test_array.copy()))
     `,
+    TimeComplexity: "O(n log n) in all cases",
+    SpaceComplexity: "O(1)",
+    Resource: "https://www.geeksforgeeks.org/heap-sort/",
   },
   RadixSort: {
     JavaScript: `
@@ -604,5 +622,8 @@ def radix_sort(arr):
 test_array = [170, 45, 75, 90, 802, 24, 2, 66]
 print("Radix Sort:", radix_sort(test_array.copy()))
     `,
+    TimeComplexity: "O(d * (n + k))",
+    SpaceComplexity: "O(n + k)",
+    Resource: "https://www.geeksforgeeks.org/radix-sort/",
   },
 };

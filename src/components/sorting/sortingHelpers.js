@@ -28,6 +28,11 @@ export function sortArray(arr, method, speed, setArr) {
   else if (method === "BubbleSort") results = bubbleSort(arr);
 
   results.forEach((result, index) => {
-    setTimeout(() => setArr(result), speed * index);
+    setTimeout(() => {
+      setArr((prevArr) => {
+        // Create a new array reference to ensure React detects the change
+        return [...result];
+      });
+    }, speed * index);
   });
 }

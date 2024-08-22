@@ -53,7 +53,7 @@ function Navbar({
   ));
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <a className="navbar-brand" href="#">
         Sorting
       </a>
@@ -171,6 +171,7 @@ function Navbar({
         </ul>
         <form className="form-inline mr-2 my-lg-0">
           <button
+            id="sortButton"
             className="btn btn-outline-success my-2 my-sm-0"
             type="submit"
             onClick={handleSortFunc}
