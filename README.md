@@ -31,7 +31,7 @@ Welcome to the Sorting Visualizer app! This application provides an interactive 
 
 1. Clone the repository:
 
-   git clone https://github.com/Akachi-Anabanti/sorting-visualizer.git
+   git clone https://github.com/Akachi-Anabanti/sort_n_search-visualizer.git
 
 2. Navigate to the project directory:
 
