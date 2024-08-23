@@ -3,9 +3,10 @@
 import "particles.js";
 import particlesJSON from "../../assets/particles-config.json";
 import { useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Search() {
+  const navigate = useNavigate();
   useEffect(() => {
     window.particlesJS("particles-js", particlesJSON);
   }, []);
@@ -27,13 +28,11 @@ function Search() {
       <div className="text-center position-relative" style={{ zIndex: 2 }}>
         <h1 className="display-4 text-white mb-4">COMING SOON</h1>
         <p className="lead text-light mb-4">
-          We're working hard to bring you something amazing. Stay tuned!
+          We're working hard to bring you the Search Visuals. Stay tuned!
         </p>
-        <button className="btn btn-primary btn-lg">
-          <NavLink exact="true" to="/" className="nav-link">
-            Home
-          </NavLink>
-        </button>
+        <a className="btn btn-primary btn-lg" onClick={() => navigate("/")}>
+          Go Home
+        </a>
       </div>
     </div>
   );
