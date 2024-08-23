@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sort_n_search-visualizer/static/css/main.852cb1a0.css",
-    "main.js": "/sort_n_search-visualizer/static/js/main.981c9329.js",
+    "main.js": "/sort_n_search-visualizer/static/js/main.1d63f13b.js",
     "static/js/453.f625469f.chunk.js": "/sort_n_search-visualizer/static/js/453.f625469f.chunk.js",
     "static/media/Anurati-Regular.otf": "/sort_n_search-visualizer/static/media/Anurati-Regular.ada0eaa4927bd5989165.otf",
     "static/media/logo-icon.svg": "/sort_n_search-visualizer/static/media/logo-icon.ba4086ca725d9b2519639134d546c5df.svg",
@@ -10,11 +10,11 @@
     "index.html": "/sort_n_search-visualizer/index.html",
     "static/media/bar-chart.svg": "/sort_n_search-visualizer/static/media/bar-chart.0f3cbd4a9f7afb867d671bdb54a9f096.svg",
     "main.852cb1a0.css.map": "/sort_n_search-visualizer/static/css/main.852cb1a0.css.map",
-    "main.981c9329.js.map": "/sort_n_search-visualizer/static/js/main.981c9329.js.map",
+    "main.1d63f13b.js.map": "/sort_n_search-visualizer/static/js/main.1d63f13b.js.map",
     "453.f625469f.chunk.js.map": "/sort_n_search-visualizer/static/js/453.f625469f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.852cb1a0.css",
-    "static/js/main.981c9329.js"
+    "static/js/main.1d63f13b.js"
   ]
 }
