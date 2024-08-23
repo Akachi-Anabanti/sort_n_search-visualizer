@@ -3,6 +3,7 @@
 import "particles.js";
 import particlesJSON from "../../assets/particles-config.json";
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 function Search() {
   useEffect(() => {
@@ -28,9 +29,11 @@ function Search() {
         <p className="lead text-light mb-4">
           We're working hard to bring you something amazing. Stay tuned!
         </p>
-        <a href="/" className="btn btn-primary btn-lg">
-          Go Home
-        </a>
+        <button className="btn btn-primary btn-lg">
+          <NavLink exact="true" to="/" className="nav-link">
+            Home
+          </NavLink>
+        </button>
       </div>
     </div>
   );
