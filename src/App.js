@@ -7,7 +7,7 @@ import Search from "./components/search/Search";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="sort_n_search-visualizer">
         <div>
           <Routes>
             <Route path="/sorting" element={<Sorting />} />
