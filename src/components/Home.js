@@ -11,7 +11,7 @@ import { ReactComponent as LogoIcon } from "../assets/logo-icon.svg";
 function Home() {
   const [problems] = useState([
     { name: "Sorting", imgUrl: bar, link: "/Sorting" },
-    { name: "Search", imgUrl: graph, link: "/searching" },
+    { name: "Search", imgUrl: graph, link: "/Searching" },
   ]);
 
   const navigate = useNavigate();
